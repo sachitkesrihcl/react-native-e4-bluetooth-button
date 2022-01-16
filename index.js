@@ -1,6 +1,7 @@
 
 import { NativeModules } from 'react-native';
+import BluetoothButton from './src/components/BluetoothButton';
 
-const { RNRnE4BluetoothButton } = NativeModules;
+const { RNBluetoothButton } = NativeModules;
 
-export default RNRnE4BluetoothButton;
+export { RNBluetoothButton, BluetoothButton};
