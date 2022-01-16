@@ -51,7 +51,7 @@ export const BluetoothButton = (props) => {
                 bluetoothState && <View style={{ backgroundColor: "white", "width": "100%", height: "100%", display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "center" }}>
                     <TouchableOpacity style={[styles.button, { width: "95%", backgroundColor: "#2d88ff1a", display: "flex", flexDirection: "row", padding: wp("2%") }, styles.shadowContainerStyle]} activeOpacity={0.5} onPress={enableBluetooth}>
                         <Image
-                            source={require('../assets/empatica.png')}
+                            source={require('../assets/bluetooth_icon.jpeg')}
                             style={{ padding: wp("2%"), width: "20%", height: "100%", resizeMode: "contain" }}
                         />
                         <View style={[{ width: "80%", height: "100%", justifyContent: 'center', alignItems: "center" }]}>
